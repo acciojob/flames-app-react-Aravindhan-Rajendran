@@ -69,7 +69,7 @@ function App() {
                 data-testid="calculate_relationship"
                 onClick={calculateRelationship}
             >
-                Calculate Relationship Future
+                Calculate Relationship
             </button>
             <button
                 type="button"
