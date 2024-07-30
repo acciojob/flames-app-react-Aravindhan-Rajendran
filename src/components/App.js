@@ -54,6 +54,7 @@ function App() {
                 type="text"
                 placeholder="Enter first name"
                 data-testid="input1"
+                name="name1"
                 value={name1}
                 onChange={(e) => setName1(e.target.value)}
             />
@@ -61,6 +62,7 @@ function App() {
                 type="text"
                 placeholder="Enter second name"
                 data-testid="input2"
+                name="name2"
                 value={name2}
                 onChange={(e) => setName2(e.target.value)}
             />
